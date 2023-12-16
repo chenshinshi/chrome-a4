@@ -1,0 +1,17 @@
+{
+  "name": "chrome-a4",
+  "author": "UserZYF",
+  "url": "https://github.com/chenshinshi",
+  "version": "1.0.0",
+  "displayName": {
+    "default": "chrome-a4",
+    "zh_CN": "chrome-a4"
+  },
+  "description": {
+    "default": "a simple theme",
+    "zh_CN": "简洁主题"
+  },
+  "modes": [
+    "light"
+  ]
+}
