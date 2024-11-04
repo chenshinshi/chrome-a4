@@ -52,7 +52,7 @@
 
     /* 提示 */
     --b3-tooltips-background: #757575;
-    --b3-tooltips-color: var(--b3-theme-background-light);
+    --b3-tooltips-color: white;
     --b3-tooltips-shadow: 0 2px 8px rgba(0, 0, 0, .1);
 
     /* av */
@@ -268,22 +268,6 @@ border-radius:50px;}
 /*按钮*/
 .b3-button--cancel{background-color: transparent;color:#4c5059;border:.05em solid #4c5059;}
 .b3-button--cancel:hover{background-color: #4c5059;color:white}
-.b3-switch {
-    height: 18px;
-    width: 36px;
-    border-radius: 50px;;
-}
-.b3-switch:checked{background-color:var(--b3-theme-primary)}
-.b3-switch:checked:after {
-    background-color: white;
-}
-.b3-dialog--open .b3-dialog__container .b3-switch:after {
-    border: 0.15em solid white;
-}
-.b3-switch:after {
-    top: 0px;
-    left: 0px;
-}
 .dock--vertical .dock__item:hover svg, .toolbar__item:hover svg {
     transform: scale(1.1);
     transition: all 0.1s ease-in-out;
@@ -324,15 +308,7 @@ border-radius:50px;}
 .b3-select,.b3-select:hover{box-shadow:inset 0 0 0 .6px #8080804d}
 .b3-text-field:not(#simpleSearchInput,#replaceInput,#searchInput)::selection{background-color:yellow}
 .protyle-util .b3-text-field.b3-text-field--text.fn__block::selection{background-color:rgba(210, 217, 223,.4)!important}
-.b3-dialog__container svg.b3-dialog__close {
-    top: 5px;
-    right: 10px;
-    z-index: 2;
-    width: 15px;
-    color:#fa625c;
-}
-[data-key="viewCards"] .block__icons .counter{margin-right:40px}
-[data-key="⌘P"] .b3-dialog__container svg.b3-dialog__close,[data-key="⌘F"] .b3-dialog__container svg.b3-dialog__close{top:0px;right:-30px}
+.b3-dialog__close{display:none}
 .config__tab-container .b3-label:not(.b3-label--inner),.config__panel>.b3-tab-bar .b3-list-item,.b3-menu__icon,.custom-attr .b3-label,.b3-menu__item{color:#283248}
 .config__tab-container .b3-label:not(.b3-label--inner) .b3-label__text{color:#697080}
 /*文档树*/
