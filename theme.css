@@ -196,7 +196,11 @@
 /*dock*/
 .dock{background:white}
 .dock#dockBottom{background-color:transparent;margin-top:-42px;border:none}
-.dock#dockBottom .dock__item {background-color:white;border-radius:10px;box-shadow:rgba(0, 0, 0, 0.06) 0px 1px 3px,0px 1px 5px 0px rgba(0, 0, 0, 0.06)}
+.layout--float.layout__dockb {
+    position: absolute;
+    bottom: 32px !important;
+}
+.dock#dockBottom .dock__item {background-color:white;border-radius:10px;box-shadow:rgba(0, 0, 0, 0.06) 0px 1px 3px,0px 1px 5px 0px rgba(0, 0, 0, 0.06);position:absolute;z-index:100}
 
 /*面板*/
 .fn__flex-1.fn__flex-column.file-tree{background:white}
