@@ -328,3 +328,15 @@ border-radius:50px;}
 
 /*大纲*/
 .sy__outline .b3-list-item__graphic.popover__block{color:#898b8d}
+/*****表情面板******/
+.emojis__title{font-weight:600}
+.emojis__item{width:35px;height:35px}
+.emojis__type{border-top:1px solid var(--b3-border-color);margin-top:5px;padding-top:5px}
+
+
+
+/********dock颜色适配*******/
+.layout__dockr .layout-tab-container,.layout__dockl .layout-tab-container,.layout__dockb .layout-tab-container{background-color:white}
+/**********代码块适配***********/
+.b3-typography .code-block, .protyle-wysiwyg .code-block{background-color:#f8f9fa}
+.b3-typography div.hljs, .protyle-wysiwyg div.hljs{background-color:transparent}
